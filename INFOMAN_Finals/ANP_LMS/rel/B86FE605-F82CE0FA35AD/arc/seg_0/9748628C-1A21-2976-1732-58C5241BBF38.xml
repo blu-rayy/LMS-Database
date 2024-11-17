@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="9748628C-1A21-2976-1732-58C5241BBF38" name="FKArc_23">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>4B2F9907-68C1-38B1-5973-D920BB3CD407</table>
+<fkeys>
+<fkeyID>1B4F1767-8F0F-D531-EB5D-E0596B4098EC</fkeyID>
+<fkeyID>B6A2F865-D066-D3CE-DCD9-B61C8F9CD5D1</fkeyID>
+<fkeyID>8794C966-5270-CE9A-49EE-A77C78C576F7</fkeyID>
+</fkeys>
+</FKArc>

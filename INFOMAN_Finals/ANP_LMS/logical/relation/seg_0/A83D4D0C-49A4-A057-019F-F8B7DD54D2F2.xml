@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="can have" directorySegmentName="seg_0" id="A83D4D0C-49A4-A057-019F-F8B7DD54D2F2">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:36:11 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<sourcePk>9251EC2D-7F9C-1DB4-7062-04928D8E6FA8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C286ADEC-8CD8-5B73-31CF-393DAFD5508E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17BCE061-81E3-17D3-148E-56D035362BBC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

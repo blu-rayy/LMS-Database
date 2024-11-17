@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="E159958E-E03B-79AD-8A6B-1D7FDC875276">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:08:30 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

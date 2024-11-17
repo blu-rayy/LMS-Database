@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="linked to" directorySegmentName="seg_0" id="7AA46026-9DC2-FABD-C69D-5217BE906852">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:35:09 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<sourcePk>482A1CFB-A5F0-3AEB-D97E-173FCB90EDFE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E3FCA50-24CF-5A17-8686-51ABF008D921</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17BCE061-81E3-17D3-148E-56D035362BBC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

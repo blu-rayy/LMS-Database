@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C286ADEC-8CD8-5B73-31CF-393DAFD5508E" name="Book">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:11:29 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN" id="8B6686EF-3473-B0B3-EA47-D4A88BEEC50A">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:11:55 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="DE5B80A3-C47D-66B3-DBF6-4931FBEEBD59">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:12:39 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PublicationDate" id="8B9DADDD-741C-294E-8DF3-8EA363513996">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:14:35 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AvailableCopies" id="EC5D143F-C8C1-7F0A-D245-FBAB127260CE">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:14:47 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="A4A50CB2-3A8F-1B05-B1C0-0531FCB054F8">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:15:04 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUTHORID" id="D03FD3DC-2BFF-AE6B-9FBE-42319E282C18">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:39:03 UTC</createdTime>
+<generatorID>7A87D9A9-7CEB-2798-7AE0-95572ED6916B</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<referedAttribute>61E40E7B-C17B-784A-0EDB-1F48EBAB75A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9251EC2D-7F9C-1DB4-7062-04928D8E6FA8" name="Book PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:12:09 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B6686EF-3473-B0B3-EA47-D4A88BEEC50A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

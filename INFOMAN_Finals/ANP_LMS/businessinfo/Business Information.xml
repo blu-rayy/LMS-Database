@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7E09827F-FBDF-13D4-074C-91B9C04D0AC1">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:08:30 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

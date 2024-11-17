@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F94D73A7-F172-E723-3AF1-A94A27F11D2A" name="Admin">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>7BDCC3A3-EAB7-6DD4-EF3B-FC6C7754F78C</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="D5721DB8-562C-E9E7-886C-2E629AE3BCE6">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>964B5D7D-F894-F9D3-0610-4AAD56C26087</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B64E13E-DD9E-4F05-BE98-BF906934A1AB" referredColumn="47F7DAA9-A84A-EC0F-0906-B071D136E986"/>
+</associations>
+</Column>
+<Column name="AdministrativeTask" id="57DC3FE4-23B2-74F0-0509-521D2E3F0A6F">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>A089B5A7-AF8A-333F-AD5E-AE8538275239</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBC2360B-91F0-9464-85B7-82101BB48B41" name="Admin_PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>482A1CFB-A5F0-3AEB-D97E-173FCB90EDFE</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5721DB8-562C-E9E7-886C-2E629AE3BCE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="241F55FD-3643-8E6B-6E7D-847E09530672" name="Admin_User_FK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>42F05A60-DA65-0605-FABA-87C94B84F961</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5721DB8-562C-E9E7-886C-2E629AE3BCE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

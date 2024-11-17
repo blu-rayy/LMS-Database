@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E982F88-AC06-F0B8-69C9-0591DFE7F201" name="Renew">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>AB9C10F2-6745-64BF-D2BA-9F29BCD96192</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANSACTIONID" id="4E671073-5B0D-E79F-1B1E-FA29A721B83A">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>3ACFBA5B-4B2F-477E-DC40-B9B0E2FD8A0A</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8794C966-5270-CE9A-49EE-A77C78C576F7" referredColumn="27438CA5-AF21-22D3-8CD4-DDEA94B79DB8"/>
+</associations>
+</Column>
+<Column name="NewReturnDate" id="DF22D447-447E-986E-A251-E4768BDB4B28">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>165AF296-D48F-61E5-4D86-09A8A293C1BC</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RenewalDate" id="D9CBAF1E-4CF6-E7D6-0EC2-E3BEBD1552E4">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>2EEC8B46-D871-3D20-3AE0-D4AAA50D0058</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NewLateFees" id="CC0FB594-0488-6444-13E3-E89F7A28BAF3">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>DA5E8DFD-E983-4025-2E43-52ED83474E2B</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A24CC024-4CBA-F1E4-2A3D-6F541F9A8A48" name="Renew_PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>03674ED4-7B60-A2B9-6616-CA369F9B0DA1</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E671073-5B0D-E79F-1B1E-FA29A721B83A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7023FF2-1B9D-8E5C-AA6D-99F452E67101" name="Renew_Transaction_FK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>00D8B6B7-02F5-407B-7059-3C23B08E017F</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E671073-5B0D-E79F-1B1E-FA29A721B83A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

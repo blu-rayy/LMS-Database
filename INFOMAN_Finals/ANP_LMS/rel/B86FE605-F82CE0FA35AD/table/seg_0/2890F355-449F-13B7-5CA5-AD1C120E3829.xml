@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2890F355-449F-13B7-5CA5-AD1C120E3829" name="Borrow">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>C0DB33DA-BF3F-83D9-4113-C3160372960F</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANSACTIONID" id="4F1E0817-63A7-E277-F1CA-FF8AE81E6C84">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>3ACFBA5B-4B2F-477E-DC40-B9B0E2FD8A0A</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B4F1767-8F0F-D531-EB5D-E0596B4098EC" referredColumn="27438CA5-AF21-22D3-8CD4-DDEA94B79DB8"/>
+</associations>
+</Column>
+<Column name="BorrowDate" id="A644F51A-5392-9A53-73CB-FE9667421F60">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>E1287A27-7069-C85C-B3DA-A55E52B028C4</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9DBB11A-A603-0AC2-EACF-1318E2CCF878" name="Borrow_PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>03674ED4-7B60-A2B9-6616-CA369F9B0DA1</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F1E0817-63A7-E277-F1CA-FF8AE81E6C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12944727-78D1-1DB3-9CC1-2A4A66538F26" name="Borrow_Transaction_FK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>2EE5089E-2AA2-82F9-8506-BACDBB577D5D</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F1E0817-63A7-E277-F1CA-FF8AE81E6C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

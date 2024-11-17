@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17BCE061-81E3-17D3-148E-56D035362BBC" name="Transaction">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:19:51 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TRANSACTIONID" id="3ACFBA5B-4B2F-477E-DC40-B9B0E2FD8A0A">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:19:56 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TransactionDate" id="6203BD5D-7CDE-2642-218E-DEA939280600">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:22:12 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERID" id="6DA5C94F-8A52-241B-FB24-06513D196EFE">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:35:09 UTC</createdTime>
+<generatorID>7AA46026-9DC2-FABD-C69D-5217BE906852</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<referedAttribute>964B5D7D-F894-F9D3-0610-4AAD56C26087</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN" id="05FBADDC-F631-7531-65CE-CE52EC6A6131">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:36:11 UTC</createdTime>
+<generatorID>A83D4D0C-49A4-A057-019F-F8B7DD54D2F2</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="true"/>
+</engineerTo>
+<referedAttribute>8B6686EF-3473-B0B3-EA47-D4A88BEEC50A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03674ED4-7B60-A2B9-6616-CA369F9B0DA1" name="Transaction PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 11:20:12 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B86FE605-27AA-D89F-34EF-F82CE0FA35AD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3ACFBA5B-4B2F-477E-DC40-B9B0E2FD8A0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

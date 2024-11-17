@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ANP_LMS" id="B578D7D7-C747-A48A-6D6B-835830F3ACAE" version="3.5">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:08:30 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B578D7D7-C747-A48A-6D6B-835830F3ACAE</designId>
+</OSDM_Design>

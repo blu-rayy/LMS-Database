@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B004D986-006F-22AC-2610-2821EF18296D" name="Student">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>2C938819-17F0-E0E1-B5DB-9EB209ABCE4B</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="4EA82C52-DD1B-D5FA-E045-B93F154F5FE1">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>964B5D7D-F894-F9D3-0610-4AAD56C26087</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2B65919-7751-6B28-CADE-6AC0CA47878D" referredColumn="47F7DAA9-A84A-EC0F-0906-B071D136E986"/>
+</associations>
+</Column>
+<Column name="OutstandingFines" id="B4C1F362-CBE0-D176-56B0-1EC505F7C048">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>1080BB75-2EA1-3F0B-A6B3-842D69FE41C3</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3284DE6A-5295-2C58-3173-58607AFC7CBE" name="Student_PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>482A1CFB-A5F0-3AEB-D97E-173FCB90EDFE</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EA82C52-DD1B-D5FA-E045-B93F154F5FE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78DBE821-C849-F02D-B015-EC206D985CBB" name="Student_User_FK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>2E6DAEB2-4416-5936-C3F6-A4BE46EF93A3</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EA82C52-DD1B-D5FA-E045-B93F154F5FE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

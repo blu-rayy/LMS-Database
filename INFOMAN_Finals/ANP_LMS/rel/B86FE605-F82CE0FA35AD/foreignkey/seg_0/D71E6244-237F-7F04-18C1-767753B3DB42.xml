@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D71E6244-237F-7F04-18C1-767753B3DB42" containerWithKeyObject="9A3CDC1F-49B1-5603-275A-80F991026F34" localFKIndex="7F9D27C1-C3AD-0878-E944-170E7F3AE96C" name="User_AuthenticationSystem_FK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>30049C3C-1FEB-C293-D3AE-EF5D5DCB8BB7</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<referredTableLongName>AuthenticationSystem</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85D57A63-C1D6-8FC3-E7F4-222298298FF3</referredTableID>
+<keyObject>D9E04F86-1EC1-2311-5515-3F992ACA88A9</keyObject>
+<referredKeyID>D9E04F86-1EC1-2311-5515-3F992ACA88A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SYSTEMID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B4F1767-8F0F-D531-EB5D-E0596B4098EC" containerWithKeyObject="2890F355-449F-13B7-5CA5-AD1C120E3829" localFKIndex="12944727-78D1-1DB3-9CC1-2A4A66538F26" name="Borrow_Transaction_FK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>2EE5089E-2AA2-82F9-8506-BACDBB577D5D</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<referredTableLongName>Transaction</referredTableLongName>
+<arc>9748628C-1A21-2976-1732-58C5241BBF38</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B2F9907-68C1-38B1-5973-D920BB3CD407</referredTableID>
+<keyObject>3DC83CD3-1A47-7841-616A-716F8BF85AEC</keyObject>
+<referredKeyID>3DC83CD3-1A47-7841-616A-716F8BF85AEC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRANSACTIONID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

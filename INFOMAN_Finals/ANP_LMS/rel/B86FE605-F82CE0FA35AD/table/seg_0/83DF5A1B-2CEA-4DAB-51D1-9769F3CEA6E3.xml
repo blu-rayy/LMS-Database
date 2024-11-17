@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83DF5A1B-2CEA-4DAB-51D1-9769F3CEA6E3" name="Author">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>4DEF88AB-2953-8AD4-BA74-31388E70D010</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AUTHORID" id="A035B16C-00C6-E087-0A32-4D3384B5BBE3">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>61E40E7B-C17B-784A-0EDB-1F48EBAB75A3</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AuthorFirstName" id="5F1E1AEF-5D82-54B6-4D93-F6E689175265">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>F75BDB2A-BA44-ED24-3985-713F5E46F631</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AuthorLastName" id="0F5D3796-C369-796B-63AD-44C0DF4BA616">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>39B6D06E-B43C-8B9B-69CD-48431BACC337</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ListOfBooks" id="5FCCE55C-9DC5-05AC-A30A-D5EECCF17DC0">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>7BCAA48B-011D-4AA3-C478-7171DB5075E1</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E837539-6FEE-EE46-2559-DE11D9E43002" name="Author_PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>324E4247-8581-AE8C-54AB-8384151F0E8A</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A035B16C-00C6-E087-0A32-4D3384B5BBE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

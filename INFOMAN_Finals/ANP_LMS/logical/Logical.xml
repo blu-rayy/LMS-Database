@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AAB92AE7-2C65-14DE-2071-3ADF9AD79635" mainViewID="0C8A1170-4DFB-8055-2149-85EECD325FDC">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 10:08:30 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

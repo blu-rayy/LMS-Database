@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A3CDC1F-49B1-5603-275A-80F991026F34" name="User">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>6E3FCA50-24CF-5A17-8686-51ABF008D921</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="47F7DAA9-A84A-EC0F-0906-B071D136E986">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>964B5D7D-F894-F9D3-0610-4AAD56C26087</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserFirstName" id="48C2D177-3B05-EEC4-8822-F90E05046C9B">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>0B63A6BF-EA7C-9D2B-A95C-966867912B63</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserLastName" id="6235C158-0BDD-BEC9-C589-BA6C4E5B835C">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>304D6025-2F26-BF5A-903D-EB1879A02B93</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AuthenticationSystem_SYSTEMID" id="E129FD2A-CB49-A8C9-7001-3E3ACE922703">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>C0C0528E-51BF-4785-020A-B83F630E09DE</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D71E6244-237F-7F04-18C1-767753B3DB42" referredColumn="DF82B038-C4BD-B872-71CE-B96824589D08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBE8E657-6F0C-9A8A-5017-C27A3E52BA38" name="User_PK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>482A1CFB-A5F0-3AEB-D97E-173FCB90EDFE</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47F7DAA9-A84A-EC0F-0906-B071D136E986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="782C197B-2B19-894F-E4A0-56F92F357CA2" name="User__IDX">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>30049C3C-1FEB-C293-D3AE-EF5D5DCB8BB7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E129FD2A-CB49-A8C9-7001-3E3ACE922703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F9D27C1-C3AD-0878-E944-170E7F3AE96C" name="User_AuthenticationSystem_FK">
+<createdBy>otaku</createdBy>
+<createdTime>2024-11-17 13:22:46 UTC</createdTime>
+<generatorID>30049C3C-1FEB-C293-D3AE-EF5D5DCB8BB7</generatorID>
+<ownerDesignName>ANP_LMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E129FD2A-CB49-A8C9-7001-3E3ACE922703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
